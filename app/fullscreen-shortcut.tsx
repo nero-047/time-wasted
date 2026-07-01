@@ -37,7 +37,7 @@ async function exitFullscreen(documentRef: FullscreenDocument) {
   await documentRef.webkitExitFullscreen?.();
 }
 
-async function toggleFullscreen() {
+export async function toggleFullscreen() {
   const documentRef = document as FullscreenDocument;
 
   if (isFullscreen(documentRef)) {

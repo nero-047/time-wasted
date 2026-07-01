@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Time Wasted logo</title>
+  <rect width="512" height="512" fill="#050505" />
+  <rect x="62" y="62" width="388" height="388" fill="none" stroke="#4b4842" stroke-width="10" />
+  <g fill="#f1ede5" transform="translate(-22 0)">
+    <rect x="128" y="164" width="116" height="24" />
+    <rect x="174" y="164" width="24" height="184" />
+    <path d="M266 164h23l21 126 33-78h24l33 78 21-126h23l-34 184h-25l-30-79-30 79h-25z" />
+  </g>
+</svg>

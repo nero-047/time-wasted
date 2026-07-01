@@ -1,4 +1,5 @@
 import FullscreenShortcut from "./fullscreen-shortcut";
+import FullscreenDateToggle from "./fullscreen-date-toggle";
 import TimeWastedCounter from "./time-wasted-counter";
 
 export default function Home() {
@@ -18,9 +19,7 @@ export default function Home() {
         <TimeWastedCounter />
 
         <footer className="flex w-full items-center justify-center">
-          <p className="select-none border border-foreground/15 bg-foreground/[0.025] px-4 py-2 font-mono text-xs font-medium uppercase tracking-normal opacity-55 shadow-[0_0_56px_rgba(127,127,127,0.08)] max-[380px]:px-3 max-[380px]:py-1 max-[380px]:text-[10px] sm:text-sm 2xl:px-5 2xl:py-3 2xl:text-base min-[2200px]:text-lg">
-            31.10.2002 / 15:45
-          </p>
+          <FullscreenDateToggle />
         </footer>
       </section>
     </main>
